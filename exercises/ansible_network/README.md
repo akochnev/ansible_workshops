@@ -4,7 +4,7 @@ This content is a multi-purpose toolkit for effectively demonstrating Ansible's 
 
 ## Presentation
 Want the Presentation Deck?  Its right here:
-[Ansible Network Automation Workshop Deck](https://ansible.github.io/linklight/decks/ansible_network.pdf)
+[Ansible Network Automation Workshop Deck](https://ansible.github.io/workshops/decks/ansible_network.pdf)
 
 ## Ansible Network Automation Exercises
 
@@ -18,7 +18,7 @@ Want the Presentation Deck?  Its right here:
 - [Exercise 8 - Using the Role Based Access Control (RBAC) feature](./8-tower-rbac/)
 - [Exercise 9 - Create an Ansible Tower Workflow](./9-tower-workflow)
 
-There are additional older exercises that are [archived here](archive/).
+There are additional supplemental exercises that are [located here](supplemental/).
 
 ## Network Diagram
 ![Red Hat Ansible Automation](../../images/network_diagram.png)

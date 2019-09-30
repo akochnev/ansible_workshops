@@ -1,5 +1,7 @@
 # Exercise 2.4 - Surveys
 
+**Read this in other languages**: ![uk](../../../images/uk.png) [English](README.md),  ![japan](../../../images/japan.png) [日本語](README.ja.md).
+
 You might have noticed the **ADD SURVEY** button in the **Template** configuration view. A survey is a way to create a simple form to ask for parameters that get used as variables when a **Template** is launched as a **Job**.
 
 You have installed Apache on all hosts in the job you just run. Now we’re going to extend on this:
@@ -14,7 +16,7 @@ Additionally, the role will also make sure that the Apache configuration is prop
 
 > **Tip**
 > 
-> The survey feature only provides a simple query for data - it dies not support four-eye principles, queries based on dynamic data or nested menues.
+> The survey feature only provides a simple query for data - it does not support four-eye principles, queries based on dynamic data or nested menus.
 
 ## Create the Project
 

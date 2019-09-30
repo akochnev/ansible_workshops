@@ -42,11 +42,11 @@ You have done this a couple of times by now:
 
   - Understand what the Playbook does.
 
-  - Execute the Playbook `motd-facts.yml`
+  - Execute the Playbook `motd-facts.yml`.
 
-  - Login to node1 via SSH and check the motto of the day message.
+  - Login to node1 via SSH and check the message of the day content.
 
-  - Log out of node1
+  - Log out of node1.
 
 You should see how Ansible replaces the variables with the facts it discovered from the system.
 
@@ -80,11 +80,13 @@ Add a line to the template to list the current kernel of the managed node.
 
   - Modify the template `motd-facts.j2`:
 
+<!-- {% raw %} -->
 ```bash
 Welcome to {{ ansible_hostname }}.
 {{ ansible_distribution }} {{ ansible_distribution_version}}
 deployed on {{ ansible_architecture }} architecture
 running kernel {{ ansible_kernel }}.
+<!-- {% endraw %} -->
 ```
 
   - Run the playbook.
